@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  background: #020202;
+  cursor: crosshair;
+height: 309px;  
+}
+canvas{display:block}
+h3 {
+
+  position: absolute;
+  top: 20%;
+  left: 20%;
+
+  color: #fff;
+  font-family: "Source Sans Pro";
+  font-size: 3em;
+  font-weight: 400;
+  -webkit-user-select: none;
+  user-select: none;
+}
+.neon{
+  color:darkgray;
+   text-shadow:
+    0 0 7px blue,
+    0 0 10px #fff;
+    text-decoration: none;
+  
+}
+.Rajan{
+
+text-shadow:
+    0 0 5px	red,
+    0 0 8px #fff;
+    direction: ltr;
+}
+.Rajan:hover{
+animation-delay: 2s;
+font-size:95px;
+text-shadow:
+    0 0 5px	red,
+    0 0 8px #fff;
+  animation-direction: le;		
+}
+
+a{
+text-decoration: none;		
+}
